@@ -1,0 +1,29 @@
+#invisalign {
+    color: #000000;
+    background: var(--bg-second-section);
+}
+
+#invisalign strong {
+    font-family: 'Inter', system-ui, sans-serif;
+    letter-spacing: 0.08em;
+    color: var(--font-span-color);
+}
+
+#invisalign header h2 {
+    margin-top: .5rem;
+}
+
+.invisalignSection-img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#invisalign p {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.highlightInvisalign {
+    color: var(--font-span-color);
+}

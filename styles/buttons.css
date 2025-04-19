@@ -20,27 +20,29 @@
 
     background: var(--btn-bg-color);
     color: var(--btn-color);
+    transition: 0.25s;
 }
 
 .btn-sm {
     white-space: nowrap;
-    padding: 0.5rem 0.75rem;
-    font-size: var(--fs-sm);
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
 }
 
 .btn-md {
-    padding: .75rem 1.5rem;
-    font-size: var(--fs-base);
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
 }
 
 .btn-lg {
-    padding: 1rem 2rem;
-    font-size: 1.125rem;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
 }
 
 .btn-accent {
     --btn-bg-color: var(--font-span-color);
     --btn-color: var(--font-first-section-color);
+
 }
 
 .btn-accent:hover {
@@ -58,6 +60,37 @@
     --btn-color: var(--font-primary-color);
 }
 
+.btn-icon {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 0.8rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.btn-icon-wpp-berge {
+    background-image: url('/RenataLyraLandingPage/assets/icons/whatsappBergeIcon.png');
+
+}
+
+.btn-icon-wpp-vinho {
+    background-image: url('/RenataLyraLandingPage/assets/icons/whatsappVine.png');
+}
+
+.btn-icon-wpp-branco {
+    background-image: url(/RenataLyraLandingPage/assets/icons/whatsappBrancoIcon.png);
+}
+
+.btn:hover .btn-icon-wpp-berge {
+    background-image: url('/RenataLyraLandingPage/assets/icons/whatsappBrancoIcon.png');
+}
+
+.btn:hover .btn-icon-wpp-branco {
+    background-image: url('/RenataLyraLandingPage/assets/icons/whatsappVine.png');
+}
+
 @media (width >=80em) {
 
     .btn-sm {
@@ -66,7 +99,19 @@
     }
 
     .btn-md {
-        padding: 1rem 2rem;
+        padding: 0.9rem 1.8rem;
         font-size: 1.125rem;
     }
+
+    .btn-lg {
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+    }
+
+    .btn-icon {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-right: 1.2rem;
+    }
+
 }

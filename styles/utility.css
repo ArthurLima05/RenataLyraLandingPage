@@ -24,6 +24,10 @@
     display: none;
 }
 
+.mobile-only {
+    display: block;
+}
+
 .even-columns {
     display: grid;
     gap: 1rem;
@@ -49,6 +53,13 @@
     display: grid;
 }
 
+.mobile-img-center {
+    display: block;
+    margin: 1.5rem auto 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
 @media (width >=80em) {
     .container {
         --max-width: 80rem;
@@ -56,6 +67,10 @@
 
     .desktop-only {
         display: initial;
+    }
+
+    .mobile-only {
+        display: none;
     }
 
     .even-columns {

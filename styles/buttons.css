@@ -12,6 +12,8 @@
     cursor: pointer;
     background: var(--btn-bg-color);
     color: var(--btn-color);
+    box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .btn:hover {
@@ -83,12 +85,20 @@
     background-image: url(/RenataLyraLandingPage/assets/icons/whatsappBrancoIcon.png);
 }
 
+.btn-icon-wpp-branco2 {
+    background-image: url(/RenataLyraLandingPage/assets/icons/whatsappBrancoIcon.png);
+}
+
 .btn:hover .btn-icon-wpp-berge {
     background-image: url('/RenataLyraLandingPage/assets/icons/whatsappBrancoIcon.png');
 }
 
 .btn:hover .btn-icon-wpp-branco {
     background-image: url('/RenataLyraLandingPage/assets/icons/whatsappVine.png');
+}
+
+.btn:hover .btn-icon-wpp-branco2 {
+    background-image: url(/RenataLyraLandingPage/assets/icons/whatsappBergeIcon.png);
 }
 
 @media (width >=80em) {

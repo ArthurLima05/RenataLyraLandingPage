@@ -70,6 +70,8 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    vertical-align: middle;
+    align-self: center;
 }
 
 .btn-icon-wpp-berge {

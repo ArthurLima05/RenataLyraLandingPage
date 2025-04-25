@@ -1,6 +1,6 @@
 #hero {
     color: var(--font-first-section-color);
-    background: url(/RenataLyraLandingPage/assets/images/bg-hero-mobile.svg);
+    background: url(/RenataLyraLandingPage/assets/images/bg-hero-mobile.svg) no-repeat center center;
     position: relative;
     padding-bottom: 5rem;
 }

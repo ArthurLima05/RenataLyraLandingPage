@@ -8,18 +8,25 @@
         gap: 1rem;
     }
 
+    & .btn .btn-lg .a {
+        color: #DBC192;
+    }
+
     .imagem-grid {
         width: 100%;
-        height: 100%;
         overflow: hidden;
         border-radius: 45px;
         display: flex;
         align-items: center;
         justify-content: center;
+
+        height: auto;
     }
 
     .imagem-grid img {
-        object-fit: cover;
+        object-fit: contain;
+        width: 100%;
+        height: auto;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         border-radius: 45px;
     }
@@ -32,7 +39,6 @@
         display: block;
         margin: 1rem auto 0;
     }
-
 }
 
 @media (width >=80em) {
@@ -47,8 +53,8 @@
         }
 
         & .imagem-grid img {
+            object-fit: cover;
             min-width: 100%;
         }
-
     }
 }

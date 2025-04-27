@@ -1,5 +1,5 @@
 #slogan {
-    background: url(/RenataLyraLandingPage/assets/images/bg-slogan-mobile.svg) no-repeat center center;
+    background: url('/assets/images/bg-slogan-mobile.svg') no-repeat center center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@
 
 @media (min-width: 80em) {
     #slogan {
-        background: url(/RenataLyraLandingPage/assets/images/bg-slogan.svg) no-repeat center center;
+        background: url('/assets/images/bg-slogan.svg') no-repeat center center;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

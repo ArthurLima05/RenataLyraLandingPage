@@ -75,32 +75,32 @@
 }
 
 .btn-icon-wpp-berge {
-    background-image: url('/RenataLyraLandingPage/assets/icons/whatsappBergeIcon.png');
+    background-image: url('/assets/icons/whatsappBergeIcon.png');
 
 }
 
 .btn-icon-wpp-vinho {
-    background-image: url('/RenataLyraLandingPage/assets/icons/whatsappVine.png');
+    background-image: url('/assets/icons/whatsappVine.png');
 }
 
 .btn-icon-wpp-branco {
-    background-image: url(/RenataLyraLandingPage/assets/icons/whatsappBrancoIcon.png);
+    background-image: url('/assets/icons/whatsappBrancoIcon.png');
 }
 
 .btn-icon-wpp-branco2 {
-    background-image: url(/RenataLyraLandingPage/assets/icons/whatsappBrancoIcon.png);
+    background-image: url('/assets/icons/whatsappBrancoIcon.png');
 }
 
 .btn:hover .btn-icon-wpp-berge {
-    background-image: url('/RenataLyraLandingPage/assets/icons/whatsappBrancoIcon.png');
+    background-image: url('/assets/icons/whatsappBrancoIcon.png');
 }
 
 .btn:hover .btn-icon-wpp-branco {
-    background-image: url('/RenataLyraLandingPage/assets/icons/whatsappVine.png');
+    background-image: url('/assets/icons/whatsappVine.png');
 }
 
 .btn:hover .btn-icon-wpp-branco2 {
-    background-image: url(/RenataLyraLandingPage/assets/icons/whatsappBergeIcon.png);
+    background-image: url('/assets/icons/whatsappBergeIcon.png');
 }
 
 @media (width >=80em) {

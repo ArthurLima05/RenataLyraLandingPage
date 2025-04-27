@@ -3,6 +3,10 @@
         margin-right: auto;
     }
 
+    & a {
+        cursor: pointer;
+    }
+
     background-color: var(--bg-header);
 }
 

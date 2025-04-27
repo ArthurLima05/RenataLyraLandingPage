@@ -3,6 +3,11 @@
     background-color: #f8f8f8;
     color: #9CA0A0;
     padding: 2rem 1rem;
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+#rodape a {
+    cursor: pointer;
 }
 
 #rodape .logo {
@@ -15,6 +20,7 @@
     margin-bottom: 2rem;
     line-height: 1.5;
     color: #000;
+    font-family: 'Cocon', system-ui, sans-serif;
 }
 
 .signup-form {

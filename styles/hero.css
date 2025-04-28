@@ -27,7 +27,8 @@
 }
 
 .hero-content h1 {
-    max-width: 15ch;
+    max-width: 16ch;
+    font-size: 22px;
 }
 
 .hero-content p {
@@ -86,7 +87,9 @@ p {
         margin-inline: 0;
     }
 
-
+    .hero-content h1 {
+        font-size: var(--fs-xl);
+    }
 
     .hero-image {
         flex: 1;

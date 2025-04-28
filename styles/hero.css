@@ -1,6 +1,6 @@
 #hero {
     color: var(--font-first-section-color);
-    background: url('/assets/images/bg-hero-mobile.svg') no-repeat center center;
+    background: url('/RenataLyraLandingPage/assets/images/bg-hero-mobile.svg') no-repeat center center;
     position: relative;
     padding-bottom: 5rem;
 }
@@ -27,7 +27,7 @@
 }
 
 .hero-content h1 {
-    max-width: 16ch;
+    max-width: 15ch;
 }
 
 .hero-content p {
